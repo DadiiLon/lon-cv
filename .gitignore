@@ -1,0 +1,9 @@
+# Personal CV (use cv-template.md as starting point)
+cv.md
+
+# Build outputs
+output/
+
+# OS files
+.DS_Store
+Thumbs.db
