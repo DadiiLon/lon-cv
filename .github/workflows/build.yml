@@ -1,0 +1,41 @@
+name: Build CV
+
+on:
+  push:
+    paths:
+      - 'cv.md'
+      - 'cv-template.md'
+      - 'build.sh'
+  workflow_dispatch:  # Manual trigger
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Pandoc
+        run: sudo apt-get install -y pandoc
+
+      - name: Install Typst
+        uses: typst-community/setup-typst@v4
+
+      - name: Use template if no cv.md
+        run: |
+          if [ ! -f cv.md ]; then
+            cp cv-template.md cv.md
+          fi
+
+      - name: Build CV
+        run: |
+          mkdir -p output
+          chmod +x build.sh
+          ./build.sh
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: cv-outputs
+          path: output/
+          retention-days: 30
