@@ -4,14 +4,15 @@ title: CV - Your Name
 
 # Your Name
 
-**Your Title** | Location
-[email@example.com](mailto:email@example.com) | +1234567890 | [linkedin.com/in/yourname](https://linkedin.com/in/yourname)
+**Your Job Title**
+
+email@example.com | +1234567890 | Location | [linkedin.com/in/yourname](https://linkedin.com/in/yourname)
 
 ---
 
 ## Profile
 
-A brief summary about yourself. 2-3 sentences describing your background, skills, and what you're looking for.
+A brief 2-3 sentence summary about yourself, your background, and what you bring to the table.
 
 ---
 
@@ -34,30 +35,26 @@ A brief summary about yourself. 2-3 sentences describing your background, skills
 
 ## Education
 
-### University Name
+**University Name** — Degree Name
 *2016 – 2020*
-
-Degree Name (e.g., B.S. Computer Science)
 
 ---
 
 ## Skills
 
-**Soft Skills:** Communication, Leadership, Problem Solving
-
-**Technical:** List, Your, Technical, Skills, Here
+Skill One, Skill Two, Skill Three, Communication, Leadership, Problem Solving
 
 ---
 
 ## Certifications
 
-- **Certification Name** — Issuer (Year)
-- **Another Certification** — Issuer (Year)
+- Certification Name — Issuer (Year)
+- Another Certification — Issuer (Year)
 
 ---
 
 ## References
 
-| Name | Position | Contact |
-|------|----------|---------|
-| Reference Name | Their Title, Company | Contact Info |
+**Reference Name** — Their Title, Company — Phone Number
+
+**Another Reference** — Their Title, Company — Phone Number
